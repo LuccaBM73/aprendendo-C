@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+
+void macete();
+
+int main(){
+	macete();
+}
+void macete(){
+	
+	printf("teste declarar funcao");
+	
+}
+
