@@ -1,0 +1,127 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int menu();
+int main();
+char mix();
+char slen();
+
+
+int main(){
+	menu();
+}
+int menu()
+{
+
+			int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,x,y,z;
+			
+			do{
+			
+			
+				printf("	*****************************************\n"
+					   "	*	Bem vindo ao menu inicial       *\n"	 // ta assim pq nessa linha eu usei tab
+					   "	*                                       *\n"
+					   "	*****************************************\n"
+					   "	*                                       *\n"
+					   "	* DIGITE 1 PARA ACESSAR O JOGO          *\n"
+					   "	* DIGITE 2 PARA ACESSAR O MENU STRING   *\n"
+					   "	* DIGITE 3 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 4 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 5 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 6 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 7 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 8 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 9 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 0 PARA SAIR                    *\n"
+					   "	*****************************************\n"
+					   
+			
+				
+				);
+				scanf("%d",&a);
+				switch (a)
+					{
+					case 1:;break;
+					case 2:mix();break;
+					case 3:;break;
+					case 4:;break;
+					case 5:;break;
+					case 6:;break;
+					case 7:;break;
+					case 8:;break;
+					case 9:;break;
+					case 0:	printf("ADIOS AMIGO :): %d\n",a);break;
+					}
+			}	
+			while(a!=0);
+	
+
+}
+char mix(){
+	int a;
+	puts("Bem vindo ao STReino\n\n");
+
+		do
+		{
+			
+			
+				printf("	*****************************************\n"
+					   "	*	Bem vindo ao menu STRING       *\n"	 
+					   "	*                                       *\n"
+					   "	*****************************************\n"
+					   "	*                                       *\n"
+					   "	* DIGITE 1 PARA ACESSAR O STRLEN        *\n"
+					   "	* DIGITE 2 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 3 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 4 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 5 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 6 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 7 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 8 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 9 PARA ACESSAR X XXXX          *\n"
+					   "	* DIGITE 0 PARA SAIR                    *\n"
+					   "	*****************************************\n"
+					   
+				);
+				scanf("%d",&a);
+				switch (a)
+					{
+					case 1:slen();break;
+					case 2:;break;
+					case 3:;break;
+					case 4:;break;
+					case 5:;break;
+					case 6:;break;
+					case 7:;break;
+					case 8:;break;
+					case 9:;break;
+					case 0:	printf("ADIOS AMIGO :): %d\n",a);break;
+					}
+			}	
+			while(a!=0);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+char slen(){
+	char cavalo[50];
+	int i=0;
+	puts("Digite sua string: ");
+	scanf("%s",&cavalo);
+	for(i=0;cavalo[i]!=0;i++);{
+		i++;
+	}
+	--i;
+	printf("%d",i);
+	
+}
